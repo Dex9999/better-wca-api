@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vercel dev",
     "build": "vercel",
-    "start": "node index.js"
+    "start": "node . "
   },
   "dependencies": {
     "unzipper": "^0.10.11",
