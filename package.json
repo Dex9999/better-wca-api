@@ -1,19 +1,23 @@
 {
-  "name": "your-project-name",
+  "name": "neon-nodejs-example",
   "version": "1.0.0",
-  "description": "Description of your project",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "vercel dev",
-    "build": "vercel",
-    "start": "node . "
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "unzipper": "^0.10.11",
-    "mysql": "^2.18.1"
+    "adm-zip": "^0.5.10",
+    "axios": "^1.4.0",
+    "child_process": "^1.0.2",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
+    "neon-js": "^1.1.2",
+    "postgres": "^3.3.4",
+    "stream": "^0.0.2",
+    "util": "^0.12.5"
   }
 }
-
-
-
-
-
