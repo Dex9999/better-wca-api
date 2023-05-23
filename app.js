@@ -1,5 +1,6 @@
 const postgres = require('postgres');
 require('dotenv').config();
+const app = require('express')();
 
 const { URL } = process.env;
 
@@ -10,4 +11,8 @@ async function getPostgresVersion() {
   console.log(result);
 }
 
-getPostgresVersion();
+app.get('/', (req, res) => {
+  getPostgresVersion();
+  res.send('Hello World!');
+});
+
