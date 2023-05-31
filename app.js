@@ -6,7 +6,6 @@
 // const app = express();
 // const { URL } = process.env;
 // const sql = postgres(URL, { ssl: 'require' });
-
 // async function getPostgresVersion() {
 //   try {
 //     const result = await sql`create table test;`;
